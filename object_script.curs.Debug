@@ -1,0 +1,12 @@
+INPUT(
+./debug\exercise.o
+./debug\main.o
+./debug\mainwindow.o
+./debug\recordsdatabase.o
+./debug\referenceform.o
+./debug\statisticform.o
+./debug\qrc_res.o
+./debug\moc_mainwindow.o
+./debug\moc_referenceform.o
+./debug\moc_statisticform.o
+);

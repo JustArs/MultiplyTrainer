@@ -1,0 +1,80 @@
+QWidget {
+    background-color: rgb(35, 35, 35);
+    color: silver;
+}
+
+
+#timeLabel {
+    font-size: 20px;
+}
+
+#pushButtonStart {
+    font-size: 30px;
+}
+
+QLineEdit, QTextEdit, QPushButton {
+    background: rgb(50, 50, 50);
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+QComboBox, QLineEdit, QTextEdit {
+    padding: 5px 5px;
+}
+
+
+QLineEdit {
+    width: 50%;
+}
+
+
+QPushButton {
+    padding: 10px 10px;
+}
+
+QPushButton:hover {
+    background: rgb(45, 45, 45);
+}
+
+QPushButton[blueButton = "true"] {
+    background: rgb(60, 135, 220);
+    color: white;
+
+}
+
+QPushButton[blueButton = "true"]:hover {
+    background: rgb(45, 100, 165);
+}
+
+QLabel[blueLabel = "true"] {
+    color: rgb(60, 135, 220);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+QLabel[redLabel = "true"] {
+    color: rgb(200, 60, 60);
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+QLabel[bigLabel = "true"] {
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+QHeaderView::section {
+    background-color: rgb(50, 50, 50);
+}
+
+QTableView QTableCornerButton::section {
+    /* background: rgb(50, 50, 50); */
+}
+
+QMessageBox {
+    padding: 5px 10px;
+}
+
+QSplashScreen {
+    color: silver;
+}

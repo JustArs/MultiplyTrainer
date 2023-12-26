@@ -1,0 +1,12 @@
+INPUT(
+./release\exercise.o
+./release\main.o
+./release\mainwindow.o
+./release\recordsdatabase.o
+./release\referenceform.o
+./release\statisticform.o
+./release\qrc_res.o
+./release\moc_mainwindow.o
+./release\moc_referenceform.o
+./release\moc_statisticform.o
+);
